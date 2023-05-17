@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box:hover {
+            background-color: red;
+        }
+
+        .p1 {
+            background-color: yellow;
+            padding: 1rem;
+            display: none;
+        }
+
+        .d1:hover+.p1 {
+            display: block;
+        }
+
+        .fancy::selection {
+            background-color: coral;
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati velit culpa ipsum iure soluta,
+        numquam voluptatem ullam aut reprehenderit itaque reiciendis animi accusantium doloribus laborum consequuntur.
+        Possimus voluptates doloremque nisi.</div>
+    <div class="d1"> hover me
+
+    </div>
+    <p class="p1">this is awsome para</p>
+    <div class="fancy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam perferendis doloremque eum?
+        Laudantium quidem fuga eius deserunt voluptas nobis vero aliquid. Fuga fugit incidunt ut, aliquam ratione amet
+        saepe aut.</div>
+</body>
+
+</html>

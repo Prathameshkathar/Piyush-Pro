@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        "
+ .big {
+            font-size: 2em;
+        }
+
+        .rem {
+            font-size: 2rem;
+        }
+
+        .box {
+            border: 0.8px solid red;
+            padding: 2rem;
+        }
+
+        .b1 {
+            background-color: red;
+            width: 50%;
+        }
+
+        .b2 {
+            background-color: yellow;
+            width: 600px;
+        }
+
+        .child {
+            background-color: blue;
+            width: 50%;
+        }
+
+        .chanbox {
+            background-color: red;
+            height: 50vh;
+            width: 50vw;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1>hello</h1>
+    <span class="big">hello</span> -->
+    <!-- <span class="big"> something
+        <span class="big">something
+            <span class="big">jast something</span>
+        </span>
+    </span>
+    <span class="rem">text
+        <span class="rem">
+            test again
+        </span>
+    </span>
+    <div class="box">box</div> -->
+    <!-- <div class="b1">b1</div>
+    <div class="b2">
+        b2
+        <div class="child">child</div>
+    <!-- </div -->
+
+
+</body>
+
+</html>

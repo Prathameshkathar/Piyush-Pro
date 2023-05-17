@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .hero {
+            height: 100vh;
+            background-image: url(./pictures/bg.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: left bottom;
+        }
+
+        .hero-image {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100vh;
+
+
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 30vh;
+            left: 15vh;
+            color: white;
+        }
+
+        .title {
+            font-size: 8vw;
+        }
+
+        h1 {
+            font-size: 5rem;
+        }
+
+
+        p {
+
+            width: 50%;
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            margin-bottom: 2rem;
+
+        }
+
+        .cta {
+            text-decoration: none;
+            color: white;
+            border: 2px solid coral;
+            padding: 1rem 2rem;
+
+        }
+
+        .navbar {
+            background-color: coral;
+            display: flex;
+            justify-content: space-between;
+            padding: 1.5rem 3rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            margin: 0px 2rem;
+            text-decoration: none;
+        }
+
+
+        .font {
+            font-size: 2vw;
+        }
+
+        @media(max-width:800px) {
+            .hero-image {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+
+        <img src="./pictures/bg-dots.svg" class="hero-image" alt="">
+
+        <img src="./pictures/user.png" class="hero-image" alt="">
+    </div>
+
+    <div class="hero-content">
+
+        <h1 class="title">hi iam jhon</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam soluta esse maiores pariatur autem, atque,
+            ad sit consectetur odit aliquid officia? Perferendis voluptatem nostrum tenetur accusamus commodi sapiente
+            labori.</p>
+        <a href="contact me" class="cta">contact me</a>
+    </div>
+
+
+
+    </div>
+    <div class="navbar">
+        <h1 class="font">jhon</h1>
+        <div>
+
+            <a class="nav-link" href="home">home</a>
+            <a class="nav-link" href="about">about</a>
+            <a class="nav-link" href="contact">contect</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
